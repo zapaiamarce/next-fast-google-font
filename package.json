@@ -12,6 +12,7 @@
   "files": [
     "dist"
   ],
+  "repository": "github:zapaiamarce/next-fast-google-font",
   "peerDependencies": {
     "react": "*"
   },
