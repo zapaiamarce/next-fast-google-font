@@ -9,10 +9,10 @@ yarn add next-fast-google-font
 ## Use
 
 ```jsx
-// _document
+// pages/_document
 
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import FastGoogleFont from "react-fast-google-font";
+import FastGoogleFont from "next-fast-google-font";
 
 class MyDocument extends Document {
   render() {
