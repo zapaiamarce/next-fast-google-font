@@ -1,0 +1,28 @@
+{
+  "name": "next-fast-google-font",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -cw"
+  },
+  "author": "Marcelo Zapaia <zapaiamarce@gmail.com>",
+  "license": "MIT",
+  "description": "Faster google font load based on https://csswizardry.com/2020/05/the-fastest-google-fonts/",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^12.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "@types/react": ">=16.8.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "rollup": "^2.11.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "typescript": "^3.9.3"
+  }
+}
