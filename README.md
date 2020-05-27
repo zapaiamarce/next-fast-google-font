@@ -1,5 +1,3 @@
-### next-fast-google-font
-
 ## Install
 
 ```
